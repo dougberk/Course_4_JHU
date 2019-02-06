@@ -2,7 +2,6 @@ library(dplyr)
 library(data.table)
 library(readtext)
 
-setwd("//chnas06/MKT-Data/Retention/RET Analytics/User/Doug B/Continued Learning/John Hopkins Data Science Courses/Getting and Cleaning Data/Week 4/UCI HAR Dataset/")
 data.train.x = read.table("train/X_train.txt")
 data.train.y = read.table("train/y_train.txt")
 subject.train = read.table("train/subject_train.txt")
